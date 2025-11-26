@@ -1,6 +1,6 @@
 # import requests
 # import json
-..
+.
 # def send_request(url):
 #     response = requests.get(url)
 #     if response.status_code == 200:
@@ -53,5 +53,6 @@ CREATE TABLE IF NOT EXISTS characters(
 ); 
 
 '''
+
 
 
