@@ -1,5 +1,5 @@
 import sqlite3
-...
+..
 con = sqlite3.connect('db.sqlite')
 cur = con.cursor()
 
@@ -69,5 +69,6 @@ cur.executemany('INSERT INTO video_products2 VALUES(?, ?, ?);', video_products)
 
 con.commit()
 con.close()
+
 
 
